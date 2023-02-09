@@ -32,7 +32,7 @@ if ck:
     symbol = custom_symbol
 else:
     symbol = sel_symbol
-
+# Created by Alireza MohammadpourShahkolaei
 START = st.sidebar.date_input('Enter Start date', datetime.date(2019, 1, 1))
 END = st.sidebar.date_input('Enter End date', min_value=START)
 
@@ -46,3 +46,4 @@ st.line_chart(history.Close)
 st.header('VOLUME')
 st.write(symbol)
 st.line_chart(history.Volume)
+# Created by Alireza MohammadpourShahkolaei
